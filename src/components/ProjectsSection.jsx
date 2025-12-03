@@ -1,4 +1,4 @@
-import { Github, Linkedin, ExternalLink, ArrowRight } from "lucide-react";
+import { Github, Linkedin, ArrowRight } from "lucide-react";
 
 const Projects = [
     {
