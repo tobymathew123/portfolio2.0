@@ -20,7 +20,7 @@ const Projects = [
     {
       id: 3,
       title: "AI Voice Agent For Banking Sector",
-      description: "An intelligent conversational AI designed for the banking sector, capable of handling customer queries and transactions in real-time via voice commands.",
+      description: "An intelligent conversational AI designed for the banking sector, capable of handling customer queries in real-time via voice commands.",
       tags: ["Python", "Deepgram", "Vobiz.ai", "Mistral-7B", "LangChain"],
       // Removed github property entirely here
     },
