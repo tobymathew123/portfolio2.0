@@ -53,7 +53,7 @@ export const Navbar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className="text-foreground/80 hover:text-primary transition-all duration-300 ease-out hover:scale-105 font-medium"
             >
               {item.name}
             </a>
@@ -82,7 +82,7 @@ export const Navbar = () => {
               <a
                 key={key}
                 href={item.href}
-                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                className="text-foreground/80 hover:text-primary transition-all duration-300 ease-out hover:scale-105 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
